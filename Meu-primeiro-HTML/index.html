@@ -4,24 +4,83 @@
    </head>
 
    <body>
-   <h1>Primeiros passos HTML</h1>
+   <h1 id="inicio">Primeiros passos HTML</h1>
+   <hr />
    <h2>Índice</h2>
    <ul>
-       <li><a href= "#"> Conhecendo a história da Web</a></li>
-       <li><a href= "#"> O que são Clients? </a></li>
-       <li><a href= "#"> O que são Servers?</a></li>
-       <li><a href= "#"> Linguagens de Programação</a></li>
-       <li><a href= "#"> Html na prática</a></li>
+       <li><a href="#historia"> Conhecendo a história da Web</a></li>
+         <ul>
+            <li><a href="#nomes">Grande Nomes</a></li>
+            <li><a href="#grace">Grace Murray Hoper</a></li>
+            <li><a href="#licklider">Joseph Licklider</a></li>
+            <li><a href="#kahn">Robert Elliot Kahn</a></li>  
+            <li><a href="#berners">Sir Timothy John Berners-Lee</a></li> 
+            <li><a href="#marc">Marc Andreessen</a></li>
+            <li><a href="#bill">William Henry Gates III</a></li>
+            <li><a href="#jobs">Steve Jobs</a></li>
+         </ul>
+      
+       
+        <p><li><a href= "page2.html" title="Clique aqui" target=" _self">O que são Clients?</a></li>
+         <ul>
+            <li><a href="page2.html#navegadores">Navegadores</a></li>
+            <li><a href="page2.html#web">Aplicações Web</a></li> 
+         </ul></p>
+       
+       
+       <p><li><a href= "page2.html#servers" title="Clique aqui" target="_self"> O que são Servers?</a></li> 
+         <ul>
+            <li><a href="page2.html#tipos">Tipos de Servidores</a></li>
+            <li><a href="page2.html#hard">Hardware</a></li>
+            <li><a href="page2.html#soft">Software</a></li>
+            <li><a href="page2.html#sites">Hospedagem de Sites</a></li>
+         </ul></p>
+       
+       
+       <li><a href= "page3.html#linguagem"> Linguagens de Programação</a></li>
+       <ul>
+         <li><a href="page3.html#tipos-linguagem">Tipos de Linguagens</a></li>
+         <li><a href="page3.html#paradigmas">Paradigmas da Programação</a></li>
+         <li><a href="page3.html#lin-server-side">Linguagens "Server-Side"</a></li>
+         <li><a href="page3.html#comuns-server-side">Linguagens comuns "Server-Side"</a></li>
+         <li><a href="page3.html#cliente-servidor">Comunicação Cliente-servidor</a></li>
+         <li><a href="page3.html#lin-client-side">Linguagens "Client-Side"</a></li>
+         <li><a href="page3.html#comuns-client-side">Linguagens comuns "Client-Side"</a></li>
+         <li><a href="page3.html#html-nao">Html não é Linguagem de Programação</a></li>      
+      </ul> 
+       
+       <li><a href= "page4.html#pratica"> Html na prática</a></li>
+       <ul>
+         <li><a href="page4.html#ferramentas">Ferramentas utilizadas</a></li>
+         <li><a href="page4.html#inspetor">Inspetor de elementos</a></li>
+         <li><a href="page4.html#estrutura">Estrutura básica do HTML</a></li>
+         <li><a href="page4.html#tags">Falando sobre tags</a></li>
+         <li><a href="page4.html#atributos">Atributos das tags</a></li>
+         <li><a href="page4.html#textos">Textos (tipografia)</a></li>
+         <li><a href="page4.html#listas">Listas no Html</a></li>
+       </ul>
+       
    </ul>
-   <h2><u>Conhecendo a história da Web</u></h2>
-   <p>Já em <strong>1946</strong> meados da Segunda Guerra a Alemanha desenvolveu o Colossus também para realizar cálculos complexos, dentre eles rotas de mísseis. No mesmo ano os EUA desenvolveram o Eniac que era utilizado basicamente para os mesmos fins, seu diferencial é que ele já era automático.</p>
+   <h2 id="historia"><u>Conhecendo a história da Web</u></h2>
+   <small><a href="#inicio">(< Voltar) </a></small>
+   <p>Os primeiros computadores eram máquinas enormes e extremamente limitadas em comparação com os dispositivos modernos, <strong>O Mark 1</strong>, também conhecido como <strong>IBM Automatic Sequence Controlled Calculator (ASCC)</strong>, foi um dos primeiros computadores eletromecânicos desenvolvidos em <strong>Harvard</strong> durante os anos <strong>1930 e 1940.</strong>
+      O projeto <strong>começou em 1937 e foi concluído em 1944.</strong>Desenvolvido em <strong>Harvard</strong> sob a supervisão de <strong>Howard Aiken</strong>, com colaboração da <strong>IBM (International Business Machines Corporation)</strong>, que forneceu suporte financeiro e tecnológico para o projeto.</p>
+
+   <p>O Mark 1 era um computador <strong>eletromecânico</strong>, significando que utilizava dispositivos mecânicos e componentes elétricos para realizar cálculos.
+      era uma <strong>máquina enorme</strong>, com aproximadamente <strong>16 metros de comprimento e 2,5 metros de altura.</strong> Era composto por milhares de interruptores eletromagnéticos e dezenas de milhares de engrenagens.
+      Foi projetado para <strong>executar cálculos científicos complexos</strong>, especialmente para <strong>tabelas de artilharia</strong> e outras <strong>aplicações militares</strong> durante a <strong>Segunda Guerra Mundial.</strong>
+      A entrada de dados e programação envolvia a manipulação física de interruptores e cartões perfurados. 
+      Embora eletromecânico, o <strong>Mark 1</strong> desempenhou um papel importante na evolução dos computadores, mostrando a viabilidade de máquinas automatizadas para cálculos complexos.
+      Sua abordagem e princípios ajudaram a pavimentar o caminho para o desenvolvimento de computadores eletrônicos posteriores.
+      O <strong>Mark 1</strong> foi um marco significativo na história da computação, representando a transição de máquinas mecânicas eletromecânicas para computadores eletrônicos mais avançados que viriam nas décadas seguintes.</p>   
+   <p>Já em <strong>1946</strong> meados da Segunda Guerra a <strong>Alemanha</strong> desenvolveu o <strong>Colossus</strong> também para realizar cálculos complexos, dentre eles rotas de mísseis. No mesmo ano os <strong>EUA</strong> desenvolveram o <strong>ENIAC</strong> que era utilizado basicamente para os mesmos fins, seu diferencial é que ele já era automático.</p>
    <p>Como os computadores esquentavam muito, acabavam atraindo insetos que muitas vezes estragavam algo nos mesmos, daí veio o termo <strong>"Deu Bug"</strong>que é atribuído a <strong>Grace Hoper.</strong></p>
-   <p>Com a evolução das válvulas para transistors os computadores tiveram uma redução drástica podendo ser um pouco mais portáteis, sendo esta considerada a segunda geração de computadores que foi entre <strong>1959 e 1965.</strong></p>
-   <p>Na terceira geração entram em cena os circuitos integrados (chips), que possibilitaram diminuir cada vez mais os tamanhos dos computadores entre <strong>1965 e 1970.</strong></p>
-   <p>E a quarta geração que vem de <strong>1971</strong> aos dias atuais onde os circuitos integrados passaram para micro-processadores, os chips continuam sendo usados mas continuam evoluindo, esta geração é marcada pelo surgimento pelos PCs (Personal Computer) tornando os computadores mais populares e acessíveis para o uso doméstico.</p>
-   <p>Seguindo em frente muitos já consideram como quinta geração a <strong> Computação Quântica, Inteligência Artificial, Metaverso e Criptomoedas.</strong></p>
-   <p><strong>TCP/IP (1970s):</strong> O desenvolvimento do protocolo TCP/IP (Transmission Control Protocol/Internet Protocol) foi fundamental para a expansão da Internet. Ele permitiu a comunicação eficiente entre diferentes redes, unificando a comunicação online.</p>
-   <p><strong>Expansão Além-Fronteiras (1980s):</strong> A <strong>ARPANET</strong> cresceu, conectando universidades e instituições de pesquisa além das fronteiras dos EUA. A transição para o TCP/IP como padrão unificado acelerou essa expansão.</p>
+   <p>Com a evolução das válvulas para transistors os computadores tiveram uma redução drástica podendo ser um pouco mais portáteis, sendo esta considerada a <strong>segunda geração</strong> de computadores que foi entre <strong>1959 e 1965.</strong></p>
+   <p>Na <strong>terceira geração</strong> entram em cena os circuitos integrados (chips), que possibilitaram diminuir cada vez mais os tamanhos dos computadores entre <strong>1965 e 1970.</strong></p>
+   <p>E a <strong>quarta geração</strong> que vem de <strong>1971</strong> aos dias atuais onde os circuitos integrados passaram para micro-processadores, os chips continuam sendo usados mas continuam evoluindo, esta geração é marcada pelo surgimento dos <strong>PCs (Personal Computer)</strong> tornando os computadores mais populares e acessíveis para o uso doméstico.</p>
+   <p>Seguindo em frente muitos já consideram como <strong>quinta geração</strong> a <strong> Computação Quântica, Inteligência Artificial, Metaverso e Criptomoedas.</strong></p>
+   <p><strong>TCP/IP (1970s):</strong> O desenvolvimento do protocolo <strong>TCP/IP (Transmission Control Protocol/Internet Protocol)</strong> foi fundamental para a expansão da Internet. Ele permitiu a comunicação eficiente entre diferentes redes, unificando a comunicação online.</p>
+   <p><strong>Expansão Além-Fronteiras (1980s):</strong> A <strong>ARPANET</strong> cresceu, conectando universidades e instituições de pesquisa além das fronteiras dos <strong>EUA</strong>. A transição para o <strong>TCP/IP</strong> como padrão unificado acelerou essa expansão.</p>
    <p><strong>World Wide Web (1990): Sir Tim Berners-Lee</strong>, um cientista britânico, inventou a <strong>World Wide Web (WWW)</strong> enquanto trabalhava no <strong>CERN.</strong> Ele desenvolveu o primeiro navegador da web e o primeiro servidor web, lançando as bases para a forma como interagimos com a Internet hoje.</p>
    <p><strong>Popularização (1990s):</strong> A década de 1990 viu uma rápida popularização da Internet com o surgimento de provedores de serviços online, como <strong>AOL</strong>, e o crescimento do comércio eletrônico.</p>
    <p><strong>Bolha da Internet (Final da década de 1990):</strong> Houve um rápido crescimento de empresas de tecnologia durante a <strong>"bolha da Internet"</strong>, com muitas startups buscando oportunidades online. Embora tenha havido uma queda subsequente, a Internet continuou a se desenvolver.</p>
@@ -29,8 +88,96 @@
    <p><strong>Expansão Global (Atualidade):</strong> A Internet tornou-se uma parte integrante da vida cotidiana em todo o mundo. Tecnologias como <strong>banda larga, dispositivos móveis e fibra ótica</strong> continuam a impulsionar sua expansão e evolução.</p>
    <p>Hoje, a <strong>Internet</strong> é uma rede global que conecta bilhões de pessoas, dispositivos e serviços, impactando praticamente todos os aspectos da sociedade e da economia.</p>
 
+   <h2 id="nomes"><u>Grandes Nomes na Computação</u></h2>
+   <small><a href="#inicio">(Voltar) </a></small>
+   <p><h3 id="grace"><strong><u>Grace Murray Hopper</u></strong></h3> 
+      Foi uma notável cientista da computação e oficial da <strong>Marinha dos Estados Unidos</strong>. Nascida em <strong>Nova York no dia 9 de dezembro de 1906</strong>, ela obteve seu <strong>Ph.D.</strong> em matemática pela <strong>Universidade Yale em 1934.</strong> Ela trabalhou no <strong>Harvard Mark I</strong>, um dos primeiros computadores automáticos, onde desenvolveu o primeiro compilador, o A-0.</p>
+   <p><strong>Contribuiçoes à Computação:</strong> <strong>Hopper</strong> desempenhou um papel fundamental no desenvolvimento da linguagem de programação <strong>COBOL (Common Business-Oriented Language)</strong>. <strong>COBOL</strong> é uma linguagem de programação de alto nível projetada para ser utilizada em aplicações comerciais e de negócios, cunhou a expressão <strong>"bug"</strong> para se referir a erros em programas de computador, após encontrar um inseto real (uma mariposa) que causou problemas em um dos computadores. Ela serviu na Marinha e trabalhou no desenvolvimento de tecnologias de computação por muitos anos, alcançando o posto de contra-almirante.<strong>	Hopper </strong>se aposentou da Marinha em <strong>1986</strong>, mas continuou a trabalhar no campo da computação. Ela recebeu numerosos prêmios e honrarias por suas contribuições, incluindo a<strong> Medalha Presidencial da Liberdade em 2016.</strong></p>
+   <p><strong>Legado: Grace Hopper </strong>é lembrada como uma pioneira na computação e uma das primeiras programadoras de computadores. Seu trabalho teve um impacto significativo no desenvolvimento de linguagens de programação e na evolução da computação moderna. A atuação de <strong>Grace</strong> na área da computação e sua dedicação à inovação a tornaram uma <strong>figura icônica</strong> no mundo da tecnologia.</p>
+                                                   
+   <h3 id="licklider"><strong><u>Joseph Carl Robnett Licklider</u></strong></h3>
+      <small><a href="#inicio">(Voltar) </a></small>
+      <p>Conhecido como <strong>J.C.R. Licklider</strong>, foi um pioneiro em ciência da computação e tecnologia da informação,  nasceu em 11 de março de <strong>1915, em St. Louis, Missouri, EUA.</strong> 
+       em <strong>1942</strong> obteve seu <strong>Ph.D.</strong> em <strong>psicologia experimental</strong> na <strong>Universidade de Rochester</strong>, Licklider lecionou em várias universidades, incluindo <strong>MIT (Instituto de Tecnologia de Massachusetts) e Harvard</strong>.
+       Sua pesquisa inicial estava na área de <strong>psicologia experimental.</strong></p>
+   <p><strong>Contribuições para a Computação e Tecnologia:</strong>Nos anos <strong>1960</strong>, <strong>Licklider</strong> assumiu um papel crucial na formação do conceito de <strong>ARPANET</strong>, precursora da Internet. Ele foi o principal visionário por trás da ideia de uma <strong>"rede galáctica"</strong> interconectada.
+      <strong>Licklider</strong> foi o primeiro diretor do <strong>Escritório de Processamento de Informação da Agência de Projetos de Pesquisa Avançada (ARPA, agora DARPA)</strong>, onde formulou ideias que levaram à criação da <strong>ARPANET.</strong>
+      Ele é amplamente reconhecido por sua visão de uma rede de computadores interconectados que permitiria o acesso rápido e fácil à informação. Licklider expressou suas ideias visionárias em seu memorando de 1960, <strong>"Man-Computer Symbiosis"</strong>, onde descreveu um sistema em que computadores e humanos trabalhariam em simbiose. 
+      Licklider foi um defensor da interação homem-computador. Ele viu o potencial de computadores não apenas como ferramentas de processamento de dados, mas como meios de comunicação e colaboração.</p>
+   <p><strong>Legado:</strong> Ele se aposentou em <strong>1985</strong>. <strong>J.C.R. Licklider</strong> é lembrado como um dos visionários cujas ideias fundamentais moldaram o desenvolvimento da Internet e da computação moderna.
+      <strong>Joseph Licklider</strong> teve um impacto duradouro no mundo da tecnologia, e sua visão futurista da computação e da interconexão de sistemas influenciou significativamente o desenvolvimento da Internet.</p>
 
+   <h3 id="kahn"><strong><u>Robert Elliot Kahn</u></strong></h3> 
+      <small><a href="#inicio">(Voltar) </a></small>
+      <p>É um cientista da computação norte-americano que desempenhou um papel crucial no desenvolvimento da Internet, <strong>nasceu em 23 de dezembro de 1938, em Nova York, EUA.</strong> Kahn obteve seu diploma de bacharel em matemática na <strong>Universidade de Nova York.</strong> Ele recebeu seu Ph.D. em ciência da computação pela Universidade de Princeton.
+      conhecido por sua colaboração com <strong>Vinton Cerf</strong> no desenvolvimento do <strong>Transmission Control Protocol (TCP)</strong> e do <strong>Internet Protocol (IP)</strong>, que juntos formam o conjunto de protocolos <strong>TCP/IP.</strong> Essa parceria foi fundamental para o desenvolvimento da arquitetura da Internet.
+      Em <strong>1973, Kahn e Cerf</strong> publicaram um artigo descrevendo o TCP, um protocolo que permitia a comunicação confiável entre diferentes redes de computadores. Essa colaboração culminou na criação do <strong>TCP/IP</strong>, que se tornou a base da arquitetura da Internet.</p>
+   <p><strong>Contribuições para a Internet:</strong> O <strong>TCP/IP</strong> se tornou o padrão adotado para a comunicação de dados na <strong>ARPANET (a precursora da Internet)</strong> e posteriormente em toda a Internet.
+      <strong>Kahn e Cerf</strong> foram fundamentais na transição da <strong>ARPANET para a Internet global.</strong> 
+      Recebeu diversos prêmios e honrarias por suas contribuições para a computação e para a Internet. Isso inclui a <strong>Medalha Nacional de Tecnologia e Inovação dos EUA</strong> e a <strong>Medalha Presidencial da Liberdade.</strong></p>
+   <p><strong>Legado:</strong> Após sua carreira inicial, <strong>Kahn</strong> continuou a se envolver em projetos relacionados à tecnologia, inovação e governança da Internet.
+      <strong>Robert E. Kahn</strong> é uma figura proeminente na história da computação e da Internet, e suas contribuições tiveram um impacto duradouro na forma como o mundo se comunica e compartilha informações.</p>
 
-</body>
+   <h3 id="berners"><strong><u>Sir Timothy John Berners-Lee</u></strong></h3> 
+      <small><a href="#inicio">(Voltar) </a></small>
+      <p>É um cientista da computação britânico, conhecido por ser o inventor da <strong>World Wide Web (WWW)</strong>, nasceu em <strong>8 de junho de 1955, em Londres, Reino Unido</strong>, estudou física no <strong>Queen's College, na Universidade de Oxford</strong>, formando-se em 1976.
+      Em <strong>1980, Berners-Lee</strong> começou a trabalhar no <strong>CERN (Organização Europeia para a Pesquisa Nuclear)</strong> como engenheiro de software.
+      Seu trabalho inicial envolveu a implementação de melhorias nos processos de comunicação entre os pesquisadores do <strong>CERN.</strong></p>
+   <p><strong>Contribuições para a Computação:</strong> Em <strong>1989</strong>, enquanto no <strong>CERN, Berners-Lee</strong> propôs o conceito da <strong>World Wide Web</strong>, um sistema de gerenciamento de informações baseado em hipertexto.
+      Ele desenvolveu as primeiras especificações do <strong>HTML (Hypertext Markup Language), do URI (Uniform Resource Identifier) e do HTTP (Hypertext Transfer Protocol).</strong>
+      Em <strong>1990, Berners-Lee</strong> implementou o <strong>primeiro servidor de web (httpd) e o primeiro navegador (chamado WorldWideWeb) no NeXTSTEP</strong>, o computador da <strong>NeXT Computer</strong>, uma empresa fundada por <strong>Steve Jobs</strong> após deixar a <strong>Apple.</strong>
+      Em <strong>1993</strong>, ele disponibilizou a tecnologia da WWW publicamente, permitindo que outros desenvolvedores criassem servidores e navegadores compatíveis.
+      <strong>Berners-Lee</strong> continuou a desempenhar um papel ativo na evolução da web.
+      Ele é um defensor da abertura e neutralidade da web, além de ser um proponente da ideia de <strong>"Web Semântica"</strong>, que busca adicionar significado aos dados na web.
+      Em <strong>1994, fundou o W3C</strong>, uma organização internacional que desenvolve padrões para a web, garantindo sua interoperabilidade e evolução.</p>
+   <p><strong>Legado:</strong> <strong>Berners-Lee foi nomeado Sir pela Rainha Elizabeth II em 2004</strong> e recebeu inúmeras honras e prêmios, incluindo o <strong>Prêmio Turing em 2016.</strong>
+      <strong>Tim Berners-Lee</strong> é amplamente considerado uma figura seminal na história da tecnologia da informação, e sua invenção da <strong>World Wide Web</strong> teve um impacto transformador na sociedade contemporânea.</p>   
+   
+   <h3 id="marc"><strong><u>Marc Andreessen</u></strong></h3> 
+      <small><a href="#inicio">(Voltar) </a></small>
+      <p>É um empresário e investidor de capital de risco que desempenhou um papel fundamental no desenvolvimento da <strong>World Wide Web</strong> e da indústria de tecnologia, <strong>nasceu em 9 de julho de 1971, em Cedar Falls, Iowa, EUA</strong>, ele frequentou a <strong>Universidade de Illinois em Urbana-Champaign</strong>, onde estudou ciência da computação.</p>
+      <p><strong>Contribuições para a Computação:</strong> Enquanto estava na universidade, <strong>Andreessen co-fundou a Netscape Communications Corporation em 1994.</strong>
+      A <strong>Netscape</strong> lançou o navegador web <strong>Mosaic</strong>, que desempenhou um papel crucial na popularização da internet, lançando o navegador <strong>Netscape Navigator em 1994</strong>, que se tornou um dos primeiros navegadores web amplamente utilizados.
+      A empresa teve um <strong>IPO altamente bem-sucedido em 1995.</strong> Posteriormente a <strong>Netscape</strong> foi adquirida pela <strong>AOL</strong> em uma das fusões mais notáveis da época, resultando na formação da <strong>AOL Time Warner.</strong>
+      Após a aquisição da <strong>Netscape pela AOL em 1999</strong>, <strong>Andreessen</strong> continuou a desempenhar vários papéis em várias empresas.
+      Ele co-fundou a <strong>Loudcloud</strong>, uma empresa de serviços de infraestrutura para empresas.</p>
+   <p><strong>Legado:</strong> Ele é conhecido por sua presença no cenário tecnológico, frequentemente escrevendo sobre tendências e perspectivas,
+      é um comentarista e analista de tecnologia respeitado.
+      <strong>Marc Andreessen</strong> é uma figura importante na história da tecnologia, conhecido por seu papel pioneiro no desenvolvimento da web e por seu impacto duradouro na indústria de tecnologia como investidor e empreendedor.</p>
+   
+   <h3 id="bill"><strong><u>William Henry Gates III</u></strong></h3> 
+      <small><a href="#inicio">(Voltar) </a></small>
+      <p><strong>Bill Gates</strong> é um empresário, filantropo e desenvolvedor de software americano. Ele é uma figura central na história da tecnologia e co-fundador da <strong>Microsoft Corporation</strong>,
+      nasceu em <strong>28 de outubro de 1955, em Seattle, Washington, EUA</strong>, frequentou a <strong>Universidade Harvard</strong>, mas abandonou os estudos para fundar a <strong>Microsoft em 1975</strong>
+      com seu amigo de infância <strong>Paul Allen.</strong> A empresa inicialmente focou em desenvolver softwares para a recém-lançada plataforma de computadores pessoais.</p> 
+   <p><strong>Contribuições para a Computação:</strong>  A <strong>Microsoft</strong> desenvolveu o sistema operacional <strong>MS-DOS</strong>, que se tornou a base para o sucesso inicial da empresa.
+      O lançamento do sistema operacional <strong>Windows em 1985</strong> foi um marco importante, estabelecendo uma interface gráfica para os computadores pessoais, 
+      sob a liderança de <strong>Gates</strong>, a <strong>Microsoft</strong> tornou-se uma das maiores e mais bem-sucedidas empresas de tecnologia do mundo.
+      A empresa desenvolveu uma ampla gama de produtos, incluindo o pacote de produtividade <strong>Microsoft Office.</strong></p>  
+   <p><strong>Legado:</strong> <strong>Gates</strong> deixou seu cargo em tempo integral na <strong>Microsoft em 2008</strong>, dedicando mais tempo à <strong>filantropia e a outros interesses.</strong>
+      Através da <strong>Fundação Gates</strong>, Bill Gates tem contribuído significativamente para esforços de <strong>combate a doenças, melhoria da educação e redução da pobreza em todo o mundo.</strong>
+      Ao longo de sua carreira, <strong>Gates</strong> ocupou várias posições influentes e recebeu inúmeros prêmios e reconhecimentos por suas contribuições para a tecnologia e filantropia.
+      <strong>Bill Gates</strong> é uma das figuras mais influentes no mundo da tecnologia e negócios, conhecido tanto por seu impacto na indústria de software quanto por seu compromisso com a filantropia global.</p>
+      
+   <h3 id="jobs"><strong><u>Steve Jobs</u></strong></h3> 
+      <small><a href="#inicio">(Voltar) </a></small>
+      <p>Foi um <strong>visionário empresário e co-fundador da Apple Inc.</strong>, uma das empresas mais inovadoras e influentes no setor de tecnologia,
+      <strong>nasceu em 24 de fevereiro de 1955, em São Francisco, Califórnia, EUA.</strong>
+      Ele frequentou a <strong>Reed College</strong>, mas abandonou os estudos após o primeiro semestre. Em <strong>1976, Jobs co-fundou a Apple junto com Steve Wozniak e Ronald Wayne</strong> na garagem de seus pais.
+      A <strong>Apple</strong> lançou seu primeiro produto, o <strong>Apple I</strong>, no mesmo ano. <strong>Jobs</strong> liderou o desenvolvimento do computador <strong>Macintosh</strong>, lançado em <strong>1984.</strong>
+      No entanto, diferenças de visão levaram ao <strong>afastamento de Jobs da Apple em 1985.</strong></p>
+   <p><strong>Contribuições para a Computação:</strong> Após sair da Apple, Jobs fundou a NeXT Computer e adquiriu a The Graphics Group, que mais tarde se tornou a Pixar Animation Studios.
+      A Pixar produziu sucessos como "Toy Story" e "Finding Nemo". Em 1996, a Apple adquiriu a NeXT e Jobs retornou à empresa em 1997.
+      Jobs assumiu o cargo de CEO e liderou a transformação da Apple em uma das empresas mais valiosas do mundo. obs foi fundamental no lançamento de produtos inovadores, incluindo o iMac, iPod, iPhone e iPad.
+      Esses produtos foram marcados por design elegante e funcionalidade inovadora. Jobs liderou o lançamento do iTunes, revolucionando a distribuição de música digital.
+      A criação da App Store permitiu o desenvolvimento e distribuição de aplicativos de terceiros para dispositivos iOS.</p>
+   <p><strong>Legado:</strong> <strong>Jobs</strong> é lembrado por seu foco implacável na inovação e design.
+      Ele influenciou profundamente a indústria de tecnologia e cultura popular.
+      O legado de <strong>Steve Jobs</strong> vai além dos produtos que ele ajudou a criar. Sua abordagem apaixonada e sua busca pela perfeição tiveram um impacto duradouro na forma como a tecnologia é concebida e experimentada.</p>
+   
+      <a href= "page2.html" title="Clique aqui" target=" _self"> Avançar > </a>
+   
+    
+   </body>
 
    </html>
